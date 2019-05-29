@@ -106,8 +106,8 @@ buildRegExp = ->
   else # match only defined aliases
     aliases = _.keys(buildGroupObject()).join('|')
   # The last group is a set of stop conditions (word boundaries or end of line)
-  atRE = '(?:@(' + aliases + ')(?:\\b[^.]|$))'
-  emojiRE = '(?:[(:])(' + aliases + ')(?:[:)])'
+  atRE = '(^|\\s)(?:@(' + aliases + ')(?:\\b[^.]|$))'
+  emojiRE = '(^|\\s)(?:[(:])(' + aliases + ')(?:[:)])'
   return new RegExp(atRE + '|' + emojiRE, 'i')
 
 module.exports = (robot) ->
