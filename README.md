@@ -6,7 +6,7 @@ Group Alias is a simple [Hubot][hubot] package which allows you to define new **
 1. All this package to your `package.json`. Do this by running this command:
 
 	```sh
-	npm install --save hubot-group-alias
+	npm install --save hubot-group-alias-whitespace
 	```
 2. Add "hubot-group-alias" to `external-scripts.json`:
 

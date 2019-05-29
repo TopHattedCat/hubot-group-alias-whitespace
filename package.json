@@ -1,8 +1,8 @@
 {
-  "name": "hubot-group-alias",
+  "name": "hubot-group-alias-whitespace",
   "description": "Easy @mention groups aliases for your chatroom",
   "version": "2.2.2",
-  "author": "Michael Ball <cycomachead@gmail.com>",
+  "author": "Michael Ball <cycomachead@gmail.com>, Sam S <me@sams.wtf>",
   "license": "MIT",
   "keywords": [
     "hubot",
@@ -17,10 +17,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/cycomachead/hubot-group-alias.git"
+    "url": "git://github.com/tophattedcat/hubot-group-alias-whitespace.git"
   },
   "bugs": {
-    "url": "https://github.com/cycomachead/hubot-group-alias/issues"
+    "url": "https://github.com/whitespace/hubot-group-alias-whitespace/issues"
   },
   "dependencies": {
     "coffee-script": "~1.6",
